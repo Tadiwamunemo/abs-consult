@@ -254,8 +254,8 @@ ul {
 .hero-copy {
   position: relative;
   z-index: 1;
-  padding: 72px 0 88px;
-  max-width: 760px;
+  padding: 72px 0 96px;
+  text-align: left;
 }
 
 .eyebrow {
@@ -272,9 +272,10 @@ ul {
 }
 
 .hero h1 {
-  font-size: clamp(2.35rem, 4.5vw, 3.65rem);
+  font-size: clamp(2.55rem, 4.15vw, 3.7rem);
   font-weight: 700;
-  max-width: 13.2em;
+  max-width: 16em;
+  line-height: 1.08;
   text-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
 }
 
@@ -286,7 +287,10 @@ ul {
 }
 
 .hero .lead {
-  margin-top: 20px;
+  margin-top: 18px;
+  max-width: 58rem;
+  font-size: 1.02rem;
+  line-height: 1.55;
 }
 
 .btn {
@@ -1319,6 +1323,10 @@ th {
   .hero-copy,
   .page-hero .container {
     padding-top: 48px;
+  }
+
+  .hero h1 br {
+    display: none;
   }
 
   .wa span {

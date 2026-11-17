@@ -94,7 +94,7 @@ def head(title, description):
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/styles.css?v=6">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=7">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -172,7 +172,7 @@ def hero_home():
   <div class="hero-shade"></div>
   <div class="container hero-copy">
     <p class="eyebrow light">Tax liberation</p>
-    <h1>Empowering Growth Through Tax Knowledge, Tax Relief &amp; Efficiency.</h1>
+    <h1>Empowering Growth Through Tax<br>Knowledge, Tax Relief &amp; Efficiency.</h1>
     <p class="lead">Empowering our clients by relieving them from excessive taxes, business inefficiencies, and capital constraints, allowing them to reinvest, expand, and flourish.</p>
     <a class="btn" href="#services">Learn more {icon_down()}</a>
   </div>
